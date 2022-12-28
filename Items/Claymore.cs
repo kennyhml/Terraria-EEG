@@ -32,6 +32,7 @@ namespace EasyEarlyGame.Items
 			Item.shoot = ProjectileID.AmberBolt;
 			Item.shootSpeed = 6f;
 			Item.useTurn = true;
+			Item.ArmorPenetration = 1;
 
 		}
 

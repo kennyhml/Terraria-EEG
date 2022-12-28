@@ -18,7 +18,7 @@ namespace EasyEarlyGame.Enemies
         {
             NPC.width = 32;
             NPC.height = 15;
-            NPC.damage = 20;
+            NPC.damage = 40;
             NPC.defense = 5;
             NPC.lifeMax = 100;
             NPC.value = 200f;

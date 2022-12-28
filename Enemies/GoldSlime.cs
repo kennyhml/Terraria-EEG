@@ -5,12 +5,12 @@ using Terraria.ModLoader.Utilities;
 
 namespace EasyEarlyGame.Enemies
 {
-    public class WoodSlime : ModNPC
+    public class GoldSlime : ModNPC
     {
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Wooden Slime");
+            DisplayName.SetDefault("Golden Slime");
             Main.npcFrameCount[NPC.type] = Main.npcFrameCount[2];
         }
 
@@ -18,10 +18,10 @@ namespace EasyEarlyGame.Enemies
         {
             NPC.width = 32;
             NPC.height = 15;
-            NPC.damage = 30;
-            NPC.defense = 3;
-            NPC.lifeMax = 30;
-            NPC.value = 100f;
+            NPC.damage = 40;
+            NPC.defense = 6;
+            NPC.lifeMax = 200;
+            NPC.value = 200f;
             NPC.aiStyle = 1;
             NPC.HitSound = SoundID.NPCHit1;
             NPC.DeathSound = SoundID.NPCDeath1;
@@ -31,7 +31,7 @@ namespace EasyEarlyGame.Enemies
 
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
-            return SpawnCondition.OverworldDaySlime.Chance * 0.15f;
+            return SpawnCondition.OverworldDaySlime.Chance * 0.05f;
         }
 
         public override void FindFrame(int frameHeight)
@@ -44,11 +44,10 @@ namespace EasyEarlyGame.Enemies
             NPC.frame.Y = (int)NPC.frameCounter / 10 * frameHeight;
         }
 
-
         public override void OnKill()
         {
             Item.NewItem(NPC.GetSource_Death(), NPC.getRect(),  ItemID.Gel, Main.rand.Next(0, 2));
-            Item.NewItem(NPC.GetSource_Death(), NPC.getRect(),  ItemID.Wood, Main.rand.Next(15, 20));
+            Item.NewItem(NPC.GetSource_Death(), NPC.getRect(),  ItemID.GoldBar, Main.rand.Next(5, 10));
         }
 
     }
