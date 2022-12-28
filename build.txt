@@ -1,0 +1,3 @@
+displayName = Easy Early Game
+author = Kenny
+version = 0.1

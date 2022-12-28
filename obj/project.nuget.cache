@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "o5zJSibb9mXfEz3zszAWDnpydWj8WDDQcd3cOT6HaCz1hNCUPTkZLI7t1AkO2JHJ1YC2TAgBTm2GdpiuQrjfpQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Admin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EasyEarlyGame\\EasyEarlyGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
